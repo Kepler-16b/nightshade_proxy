@@ -1,0 +1,2 @@
+# nightshade_proxy
+为Nightshade配置你的系统代理，解决大陆网络问题导致的模型无法下载问题。
