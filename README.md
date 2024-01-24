@@ -6,3 +6,6 @@
 运行“run_nightshade.bat” 时，将弹出终端，并询问您系统代理服务器地址与端口。您可于系统设置中搜索 “proxy setting”来查看系统代理配置。
 
 您需要拥有已经可用的vpn、v2ray等网络代理，并且能够正常访问墙外网址。
+
+## Downlaod Nightshade / Nightshade 下载地址
+https://nightshade.cs.uchicago.edu/downloads.html
