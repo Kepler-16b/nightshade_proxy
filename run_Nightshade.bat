@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 > nul
 setlocal
 
 set LAST_HEADER="#最后一次运行时使用的代理服务器为："
