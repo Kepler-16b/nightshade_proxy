@@ -1,17 +1,13 @@
 @echo off
-chcp 65001 > nul
 setlocal
 
-set LAST_HEADER="#最后一次运行时使用的代理服务器为："
-
 REM 提示用户输入代理服务器地址
-set /p PROXY_SERVER=请输入代理服务器地址（如127.0.0.1）: 
+set /p PROXY_SERVER=Enter your system proxy server (e.g. 127.0.0.1): 
 
 REM 提示用户输入代理服务器端口
-set /p PROXY_PORT=请输入代理服务器端口号: 
+set /p PROXY_PORT=Enter your system proxy port: 
 
 REM 将用户输入的代理信息写入配置文件
-echo LAST_HEADER=%LAST_HEADER%> last_proxy_config.txt
 echo PROXY_SERVER=%PROXY_SERVER%> last_proxy_config.txt
 echo PROXY_PORT=%PROXY_PORT%>> last_proxy_config.txt
 
@@ -29,4 +25,3 @@ start "" "%PROGRAM_PATH%"
 
 REM 退出脚本
 exit
-
